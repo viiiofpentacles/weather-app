@@ -6,20 +6,94 @@
 body {
     height: 100vh;
 }
+
 img {
     height: 5rem;
     padding: 1rem;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    font-weight: 600;
+}
+
+input {
+    padding: 0.4rem;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(41, 41, 41, 0.3);
+    color: white;
+    
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+    margin-left: -18px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#search-icon {
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+}
+
 #container {
-    color: rgb(214, 214, 214);
-    background-image: linear-gradient(rgb(48, 4, 48), rgb(175, 103, 115));
+    
     text-align: center;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.default {
+    color: rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(48, 4, 48), rgb(175, 103, 115));
+}
+
+.storm {
+    color: rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(59, 53, 68), rgb(187, 189, 168));
+}
+
+.drizzle {
+    color: rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(106, 92, 128), rgb(171, 172, 167));
+}
+
+.rain {
+    color: rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(63, 43, 94), rgb(135, 136, 124));
+}
+
+.snow {
+    color: rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(149, 136, 168),rgb(189, 168, 189));
+}
+
+.atmopshere {
+    color: rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(228, 133, 24), rgb(230, 219, 126));
+}
+
+.clear {
+    color: rgb(209, 209, 209);
+    background-image: linear-gradient(rgb(31, 138, 138), rgb(196, 194, 125));
+}
+
+.clouds {
+    color: rgb(214, 214, 214);
+    background-image: linear-gradient(rgb(67, 143, 179), rgb(187, 189, 168));
 }
 
 #display {
