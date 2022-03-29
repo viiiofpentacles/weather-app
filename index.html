@@ -8,7 +8,7 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <div id="container">
+    <div id="container" class="default">
         <div id="display">
             <div id="country"></div>
             <img src="" id="weather-icon">
@@ -21,12 +21,12 @@
         <div id="search">
             <div class="search-text">Tell me the weather.</div>
             <input type="text" id="search-box" placeholder="State/City/Country">
-            <button id="search-btn">Search!</button>
+            <button id="search-btn"><img id="search-icon"></button>
             <input id ="units" type="hidden" value="imperial">
         </div>
         <div id="footer">
             <div class="credits">
-                Weather data from <a href="https://openweathermap.org/">OpenWeather</a> | Icons from <a href="https://www.flaticon.com/authors/photo3idea-studio">photo3idea-studio</a>
+                Weather data from <a href="https://openweathermap.org/">OpenWeather</a> | Icons from <a href="https://www.flaticon.com/authors/photo3idea-studio">photo3idea-studio</a> and <a href="https://www.flaticon.com/authors/taufik">Taufik</a>
             </div>
         </div>
     </div>
