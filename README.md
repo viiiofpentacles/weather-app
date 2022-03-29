@@ -1,4 +1,4 @@
-# Intrduction
+# Introduction
 
 A simple weather app.  
 
